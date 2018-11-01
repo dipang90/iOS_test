@@ -1,0 +1,16 @@
+PODS:
+  - ScrollableSegmentedControl (1.3.0)
+
+DEPENDENCIES:
+  - ScrollableSegmentedControl (~> 1.3.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ScrollableSegmentedControl
+
+SPEC CHECKSUMS:
+  ScrollableSegmentedControl: a90ae91537fd670a46b177301d035223e3bd149e
+
+PODFILE CHECKSUM: edf29555d7fbb07e17144001497bc4d9037eb807
+
+COCOAPODS: 1.5.3

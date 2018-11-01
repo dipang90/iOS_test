@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0uv-3n-IAt">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--More-->
+        <scene sceneID="8gQ-W0-D3C">
+            <objects>
+                <viewController storyboardIdentifier="MoreId" id="2vC-aS-Gr1" customClass="MoreViewController" customModule="iOS_Market" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0oK-w2-yUa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="3Un-Ye-j6O"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="More" image="More" selectedImage="More" id="po7-2m-TNV"/>
+                    <navigationItem key="navigationItem" id="8G9-MX-J65"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fYc-UF-q6P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-690" y="741"/>
+        </scene>
+        <!--Market-->
+        <scene sceneID="fqB-l3-cIh">
+            <objects>
+                <viewController storyboardIdentifier="MarketId" id="V1J-8j-cb3" customClass="MarketViewController" customModule="iOS_Market" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yv5-jJ-S3P">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ht4-BH-0sE">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="spx-8N-knW">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="24T-Nf-ZWc" customClass="ScrollableSegmentedControl" customModule="ScrollableSegmentedControl">
+                                                <rect key="frame" x="10" y="0.0" width="300" height="40"/>
+                                                <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="24T-Nf-ZWc" firstAttribute="leading" secondItem="spx-8N-knW" secondAttribute="leading" constant="10" id="Npv-rf-hRb"/>
+                                            <constraint firstAttribute="bottom" secondItem="24T-Nf-ZWc" secondAttribute="bottom" id="ZC9-LD-8kA"/>
+                                            <constraint firstItem="24T-Nf-ZWc" firstAttribute="top" secondItem="spx-8N-knW" secondAttribute="top" id="exd-iw-iY8"/>
+                                            <constraint firstAttribute="trailing" secondItem="24T-Nf-ZWc" secondAttribute="trailing" constant="10" id="ibH-eb-wC4"/>
+                                            <constraint firstAttribute="height" constant="40" id="sDV-fn-s7h"/>
+                                        </constraints>
+                                    </view>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="HlR-Nu-WQm">
+                                        <rect key="frame" x="0.0" y="50" width="320" height="518"/>
+                                        <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0Fb-mV-R60">
+                                            <size key="itemSize" width="50" height="50"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="rWb-w3-Tju">
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </view>
+                                            </collectionViewCell>
+                                        </cells>
+                                        <connections>
+                                            <outlet property="dataSource" destination="V1J-8j-cb3" id="gda-HD-eX7"/>
+                                            <outlet property="delegate" destination="V1J-8j-cb3" id="cS0-ZI-SLY"/>
+                                        </connections>
+                                    </collectionView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="HlR-Nu-WQm" secondAttribute="trailing" id="BYS-Xq-7LL"/>
+                                    <constraint firstItem="HlR-Nu-WQm" firstAttribute="top" secondItem="spx-8N-knW" secondAttribute="bottom" constant="10" id="Es2-GQ-JoF"/>
+                                    <constraint firstItem="spx-8N-knW" firstAttribute="leading" secondItem="ht4-BH-0sE" secondAttribute="leading" id="aQE-Ry-VzY"/>
+                                    <constraint firstAttribute="bottom" secondItem="HlR-Nu-WQm" secondAttribute="bottom" id="cwo-JT-H8T"/>
+                                    <constraint firstItem="spx-8N-knW" firstAttribute="top" secondItem="ht4-BH-0sE" secondAttribute="top" id="jXW-TR-PFF"/>
+                                    <constraint firstItem="HlR-Nu-WQm" firstAttribute="leading" secondItem="ht4-BH-0sE" secondAttribute="leading" id="wND-fm-TWk"/>
+                                    <constraint firstAttribute="trailing" secondItem="spx-8N-knW" secondAttribute="trailing" id="yOW-c7-evV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ht4-BH-0sE" firstAttribute="trailing" secondItem="yv5-jJ-S3P" secondAttribute="trailing" id="Ckm-YC-9lC"/>
+                            <constraint firstItem="ht4-BH-0sE" firstAttribute="bottom" secondItem="yv5-jJ-S3P" secondAttribute="bottom" id="T58-2C-bOL"/>
+                            <constraint firstItem="ht4-BH-0sE" firstAttribute="top" secondItem="yv5-jJ-S3P" secondAttribute="top" id="cxt-2F-h3R"/>
+                            <constraint firstItem="ht4-BH-0sE" firstAttribute="leading" secondItem="yv5-jJ-S3P" secondAttribute="leading" id="ziE-je-hn9"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Market" image="Marketplace" selectedImage="Marketplace" id="opT-C8-IiY"/>
+                    <navigationItem key="navigationItem" id="tVS-fg-5Yt"/>
+                    <connections>
+                        <outlet property="collectionView" destination="HlR-Nu-WQm" id="ozv-Ms-qh5"/>
+                        <outlet property="segmentedControl" destination="24T-Nf-ZWc" id="4Sa-oM-m84"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v9k-JU-W1t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1059.375" y="740.49295774647885"/>
+        </scene>
+        <!--Scan QR-->
+        <scene sceneID="akR-Ek-dAj">
+            <objects>
+                <viewController storyboardIdentifier="ScanQRId" id="PSo-bi-xSt" customClass="ScanQRViewController" customModule="iOS_Market" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9TX-lg-qNp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Uqc-lg-wSW"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Scan QR" id="hGl-48-hCd">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" id="ICB-uh-CGn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IVK-aP-9D2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1521" y="-74"/>
+        </scene>
+        <!--Card-->
+        <scene sceneID="gOL-1c-O6G">
+            <objects>
+                <viewController storyboardIdentifier="CardId" id="9rf-gG-2bz" customClass="CardViewController" customModule="iOS_Market" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9l3-HF-0tf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="RP4-t3-HpW"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Card" image="Card" selectedImage="Card" id="xnD-WS-nzX"/>
+                    <navigationItem key="navigationItem" id="GQc-DD-r2M"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZZm-bz-zVo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1060" y="-868"/>
+        </scene>
+        <!--Accounts-->
+        <scene sceneID="dH8-3m-crY">
+            <objects>
+                <viewController storyboardIdentifier="AccountsId" id="5tB-UV-t3F" customClass="AccountsViewController" customModule="iOS_Market" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="H3Q-3P-JFi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.11372549019607843" green="0.11372549019607843" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="5pV-Ra-hQU"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Accounts" image="Iconwallet" selectedImage="Iconwallet" id="MOe-5C-LJe"/>
+                    <navigationItem key="navigationItem" id="ywL-2K-hBs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AN4-8u-gYa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-567" y="-1321"/>
+        </scene>
+        <!--Accounts-->
+        <scene sceneID="eqX-1v-z9Y">
+            <objects>
+                <navigationController id="l9a-gU-P5h" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Accounts" image="Iconwallet" selectedImage="Iconwallet" id="vFC-o9-9GD"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GRn-4u-hRM">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="5tB-UV-t3F" kind="relationship" relationship="rootViewController" id="hhf-GU-slJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lZh-Ib-ajX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1506" y="-1008"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Lhh-F2-QJw">
+            <objects>
+                <tabBarController hidesBottomBarWhenPushed="YES" id="0uv-3n-IAt" customClass="TabBarController" customModule="iOS_Market" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="woM-A9-uAr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.1137254902" green="0.1137254902" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.1137254902" green="0.1137254902" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="l9a-gU-P5h" kind="relationship" relationship="viewControllers" id="zJm-T2-xa3"/>
+                        <segue destination="GlE-XV-4tZ" kind="relationship" relationship="viewControllers" id="DNI-hk-ZNL"/>
+                        <segue destination="2Gf-hI-rfI" kind="relationship" relationship="viewControllers" id="8Re-KG-ote"/>
+                        <segue destination="Klp-Ou-NNQ" kind="relationship" relationship="viewControllers" id="oCg-WI-86K"/>
+                        <segue destination="roe-cz-UdH" kind="relationship" relationship="viewControllers" id="U9i-Da-kjE"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Kc-TY-7za" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1238" y="-74"/>
+        </scene>
+        <!--Market-->
+        <scene sceneID="OX2-mi-Wp9">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="Klp-Ou-NNQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Market" image="Marketplace" selectedImage="Marketplace" id="VjP-iX-WcZ"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fV7-eR-BXB">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="V1J-8j-cb3" kind="relationship" relationship="rootViewController" id="aKp-Uq-OVr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qqf-05-gGN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="262" y="741"/>
+        </scene>
+        <!--Scan QR-->
+        <scene sceneID="dMc-x2-ebU">
+            <objects>
+                <navigationController id="2Gf-hI-rfI" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Scan QR" id="aB0-u8-Nj0"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="a6h-Rd-Bzs">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="PSo-bi-xSt" kind="relationship" relationship="rootViewController" id="IqX-mu-Bg0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NN1-nz-sfX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="697" y="-74"/>
+        </scene>
+        <!--Card-->
+        <scene sceneID="j6u-jR-7iI">
+            <objects>
+                <navigationController id="GlE-XV-4tZ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Card" image="Card" selectedImage="Card" id="Tbo-N3-Fkt"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bEr-Dz-HLi">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="9rf-gG-2bz" kind="relationship" relationship="rootViewController" id="2ov-e8-kx9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2ME-Vp-bMG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="263" y="-867"/>
+        </scene>
+        <!--More-->
+        <scene sceneID="cDt-LI-ohT">
+            <objects>
+                <navigationController id="roe-cz-UdH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="More" image="More" selectedImage="More" id="cdi-dU-QGV"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="h6O-3e-TpT">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="2vC-aS-Gr1" kind="relationship" relationship="rootViewController" id="JO6-qv-WwC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e2n-Ko-jBF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1506" y="741"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Card" width="28" height="19"/>
+        <image name="Iconwallet" width="24" height="24"/>
+        <image name="Marketplace" width="27" height="23"/>
+        <image name="More" width="23" height="23"/>
+    </resources>
+</document>

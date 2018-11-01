@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Credit View Controller-->
+        <scene sceneID="oB1-eW-Pg0">
+            <objects>
+                <viewController storyboardIdentifier="CreditId" id="QOA-V3-3hA" customClass="CreditViewController" customModule="iOS_Market" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="B32-tl-O42">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="eNa-9u-2dk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="USS-2b-2bM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="924" y="-206"/>
+        </scene>
+        <!--Insurance View Controller-->
+        <scene sceneID="oWT-R8-lkr">
+            <objects>
+                <viewController storyboardIdentifier="InsuranceId" id="YyN-lF-M2P" customClass="InsuranceViewController" customModule="iOS_Market" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ab8-hj-Rw2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Maa-Aa-Hyp"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HhT-Ng-ipj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-455" y="-204"/>
+        </scene>
+        <!--Loans View Controller-->
+        <scene sceneID="W5C-a0-EKZ">
+            <objects>
+                <viewController storyboardIdentifier="LoansId" id="RBI-ZQ-4Qz" customClass="LoansViewController" customModule="iOS_Market" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0vj-Xc-o7x">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="jfB-ET-BJg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2sv-W0-gzF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1623" y="-206"/>
+        </scene>
+        <!--Money Transfer View Controller-->
+        <scene sceneID="Rbu-5b-D0g">
+            <objects>
+                <viewController storyboardIdentifier="MoneyTransferId" id="Qmq-VL-Zhr" customClass="MoneyTransferViewController" customModule="iOS_Market" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OhX-cj-b4Y">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" contentViewInsetsToSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y0B-11-Igc">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Qmq-VL-Zhr" id="dh7-Ot-YtA"/>
+                                    <outlet property="delegate" destination="Qmq-VL-Zhr" id="tHV-7b-7WX"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nyJ-gb-ljg">
+                                <rect key="frame" x="40" y="348" width="240" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Daq-NU-VS1"/>
+                                    <constraint firstAttribute="height" constant="40" id="cU1-Ry-YP8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Compare Money Transfer" backgroundImage="blueButton">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Y0B-11-Igc" firstAttribute="top" secondItem="OhX-cj-b4Y" secondAttribute="top" id="5No-D7-RFQ"/>
+                            <constraint firstItem="Y0B-11-Igc" firstAttribute="leading" secondItem="Hot-aT-Zhh" secondAttribute="leading" id="7wr-rk-BE6"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="nyJ-gb-ljg" secondAttribute="bottom" constant="180" id="Em6-lb-QS7"/>
+                            <constraint firstItem="Y0B-11-Igc" firstAttribute="bottom" secondItem="Hot-aT-Zhh" secondAttribute="bottom" id="HvG-vt-n5f"/>
+                            <constraint firstItem="Y0B-11-Igc" firstAttribute="trailing" secondItem="Hot-aT-Zhh" secondAttribute="trailing" id="ux2-j0-WPr"/>
+                            <constraint firstItem="nyJ-gb-ljg" firstAttribute="centerX" secondItem="OhX-cj-b4Y" secondAttribute="centerX" id="wlm-Le-tn3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Hot-aT-Zhh"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="Y0B-11-Igc" id="qOW-uO-axD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XcW-bm-LAk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1177" y="-204"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blueButton" width="240" height="36"/>
+    </resources>
+</document>

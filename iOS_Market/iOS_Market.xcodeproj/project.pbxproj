@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		247E42C2218A0CFC001479B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E42C1218A0CFC001479B6 /* AppDelegate.swift */; };
+		247E42C7218A0CFC001479B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247E42C5218A0CFC001479B6 /* Main.storyboard */; };
+		247E42C9218A0D08001479B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247E42C8218A0D08001479B6 /* Assets.xcassets */; };
+		247E42CC218A0D08001479B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247E42CA218A0D08001479B6 /* LaunchScreen.storyboard */; };
+		247E42DA218A1697001479B6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E42D9218A1697001479B6 /* Extensions.swift */; };
+		247E42DC218A1AD5001479B6 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E42DB218A1AD4001479B6 /* Enums.swift */; };
+		247E42DF218A26C8001479B6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E42DE218A26C8001479B6 /* TabBarController.swift */; };
+		247E42E8218A2789001479B6 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E42E7218A2789001479B6 /* CardViewController.swift */; };
+		247E42EA218A2796001479B6 /* ScanQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E42E9218A2796001479B6 /* ScanQRViewController.swift */; };
+		247E42EC218A27A2001479B6 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E42EB218A27A2001479B6 /* MoreViewController.swift */; };
+		247E42EE218A27AE001479B6 /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E42ED218A27AE001479B6 /* AccountsViewController.swift */; };
+		247E42F0218A27F1001479B6 /* MoneyTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E42EF218A27F1001479B6 /* MoneyTransferViewController.swift */; };
+		247E42F2218A2801001479B6 /* InsuranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E42F1218A2801001479B6 /* InsuranceViewController.swift */; };
+		247E42F4218A2810001479B6 /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E42F3218A2810001479B6 /* CreditViewController.swift */; };
+		247E42F6218A2822001479B6 /* LoansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E42F5218A2822001479B6 /* LoansViewController.swift */; };
+		247E42F8218A2848001479B6 /* Market.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247E42F7218A2848001479B6 /* Market.storyboard */; };
+		247E42FB218A31F5001479B6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E42FA218A31F5001479B6 /* BaseViewController.swift */; };
+		247E42FF218A4391001479B6 /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E42FE218A4391001479B6 /* MarketViewController.swift */; };
+		247E4303218A4A9F001479B6 /* BaseCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 247E4301218A4A9F001479B6 /* BaseCollectionViewCell.xib */; };
+		247E4304218A4A9F001479B6 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E4302218A4A9F001479B6 /* BaseCollectionViewCell.swift */; };
+		247E4308218A5152001479B6 /* MoneyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E4306218A5152001479B6 /* MoneyTableViewCell.swift */; };
+		247E4309218A5152001479B6 /* MoneyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 247E4307218A5152001479B6 /* MoneyTableViewCell.xib */; };
+		56B063D5DC666552704D4D5B /* Pods_iOS_Market.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752932EF9024B4F402E8D351 /* Pods_iOS_Market.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		247E42BE218A0CFC001479B6 /* iOS_Market.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Market.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		247E42C1218A0CFC001479B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		247E42C6218A0CFC001479B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		247E42C8218A0D08001479B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		247E42CB218A0D08001479B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		247E42CD218A0D08001479B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		247E42D9218A1697001479B6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		247E42DB218A1AD4001479B6 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		247E42DE218A26C8001479B6 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		247E42E7218A2789001479B6 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		247E42E9218A2796001479B6 /* ScanQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRViewController.swift; sourceTree = "<group>"; };
+		247E42EB218A27A2001479B6 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		247E42ED218A27AE001479B6 /* AccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
+		247E42EF218A27F1001479B6 /* MoneyTransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTransferViewController.swift; sourceTree = "<group>"; };
+		247E42F1218A2801001479B6 /* InsuranceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceViewController.swift; sourceTree = "<group>"; };
+		247E42F3218A2810001479B6 /* CreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
+		247E42F5218A2822001479B6 /* LoansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoansViewController.swift; sourceTree = "<group>"; };
+		247E42F7218A2848001479B6 /* Market.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Market.storyboard; sourceTree = "<group>"; };
+		247E42FA218A31F5001479B6 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		247E42FE218A4391001479B6 /* MarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
+		247E4301218A4A9F001479B6 /* BaseCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseCollectionViewCell.xib; sourceTree = "<group>"; };
+		247E4302218A4A9F001479B6 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		247E4306218A5152001479B6 /* MoneyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTableViewCell.swift; sourceTree = "<group>"; };
+		247E4307218A5152001479B6 /* MoneyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoneyTableViewCell.xib; sourceTree = "<group>"; };
+		3C5C7D02EF6D8AC10CD9E8DA /* Pods-iOS_Market.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Market.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Market/Pods-iOS_Market.debug.xcconfig"; sourceTree = "<group>"; };
+		752932EF9024B4F402E8D351 /* Pods_iOS_Market.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Market.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D376C91F7FCDBAC1CEFEBDD1 /* Pods-iOS_Market.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Market.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Market/Pods-iOS_Market.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		247E42BB218A0CFC001479B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B063D5DC666552704D4D5B /* Pods_iOS_Market.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		247E42B5218A0CFC001479B6 = {
+			isa = PBXGroup;
+			children = (
+				247E42C0218A0CFC001479B6 /* iOS_Market */,
+				247E42BF218A0CFC001479B6 /* Products */,
+				DE9A1911169D05EA291D1C8E /* Pods */,
+				642B96A0C7B29EF8882099E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		247E42BF218A0CFC001479B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				247E42BE218A0CFC001479B6 /* iOS_Market.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		247E42C0218A0CFC001479B6 /* iOS_Market */ = {
+			isa = PBXGroup;
+			children = (
+				247E42C1218A0CFC001479B6 /* AppDelegate.swift */,
+				247E42C5218A0CFC001479B6 /* Main.storyboard */,
+				247E42F7218A2848001479B6 /* Market.storyboard */,
+				247E42D5218A0FF9001479B6 /* Controller */,
+				247E42D6218A0FFA001479B6 /* Views */,
+				247E42D3218A0FF9001479B6 /* Supports */,
+				247E42C8218A0D08001479B6 /* Assets.xcassets */,
+				247E42CA218A0D08001479B6 /* LaunchScreen.storyboard */,
+				247E42CD218A0D08001479B6 /* Info.plist */,
+			);
+			path = iOS_Market;
+			sourceTree = "<group>";
+		};
+		247E42D3218A0FF9001479B6 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				247E42D7218A1034001479B6 /* Resources */,
+				247E42D4218A0FF9001479B6 /* Helper */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		247E42D4218A0FF9001479B6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				247E42D9218A1697001479B6 /* Extensions.swift */,
+				247E42DB218A1AD4001479B6 /* Enums.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		247E42D5218A0FF9001479B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				247E42F9218A31E0001479B6 /* BaseControllers */,
+				247E42DD218A1E5B001479B6 /* TabBarItems */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		247E42D6218A0FFA001479B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				247E4305218A512D001479B6 /* UITableViewcell */,
+				247E4300218A4A8B001479B6 /* CollectionViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		247E42D7218A1034001479B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				247E42D8218A103D001479B6 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		247E42D8218A103D001479B6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		247E42DD218A1E5B001479B6 /* TabBarItems */ = {
+			isa = PBXGroup;
+			children = (
+				247E42DE218A26C8001479B6 /* TabBarController.swift */,
+				247E42E4218A2754001479B6 /* Card */,
+				247E42E3218A2748001479B6 /* ScanQR */,
+				247E42E2218A2740001479B6 /* Markets */,
+				247E42E1218A2737001479B6 /* More */,
+				247E42E0218A2730001479B6 /* Accounts */,
+			);
+			path = TabBarItems;
+			sourceTree = "<group>";
+		};
+		247E42E0218A2730001479B6 /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				247E42ED218A27AE001479B6 /* AccountsViewController.swift */,
+			);
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+		247E42E1218A2737001479B6 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				247E42EB218A27A2001479B6 /* MoreViewController.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		247E42E2218A2740001479B6 /* Markets */ = {
+			isa = PBXGroup;
+			children = (
+				247E42FE218A4391001479B6 /* MarketViewController.swift */,
+				247E42EF218A27F1001479B6 /* MoneyTransferViewController.swift */,
+				247E42F1218A2801001479B6 /* InsuranceViewController.swift */,
+				247E42F3218A2810001479B6 /* CreditViewController.swift */,
+				247E42F5218A2822001479B6 /* LoansViewController.swift */,
+			);
+			path = Markets;
+			sourceTree = "<group>";
+		};
+		247E42E3218A2748001479B6 /* ScanQR */ = {
+			isa = PBXGroup;
+			children = (
+				247E42E9218A2796001479B6 /* ScanQRViewController.swift */,
+			);
+			path = ScanQR;
+			sourceTree = "<group>";
+		};
+		247E42E4218A2754001479B6 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				247E42E7218A2789001479B6 /* CardViewController.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		247E42F9218A31E0001479B6 /* BaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				247E42FA218A31F5001479B6 /* BaseViewController.swift */,
+			);
+			path = BaseControllers;
+			sourceTree = "<group>";
+		};
+		247E4300218A4A8B001479B6 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				247E4302218A4A9F001479B6 /* BaseCollectionViewCell.swift */,
+				247E4301218A4A9F001479B6 /* BaseCollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		247E4305218A512D001479B6 /* UITableViewcell */ = {
+			isa = PBXGroup;
+			children = (
+				247E4306218A5152001479B6 /* MoneyTableViewCell.swift */,
+				247E4307218A5152001479B6 /* MoneyTableViewCell.xib */,
+			);
+			path = UITableViewcell;
+			sourceTree = "<group>";
+		};
+		642B96A0C7B29EF8882099E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				752932EF9024B4F402E8D351 /* Pods_iOS_Market.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE9A1911169D05EA291D1C8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C7D02EF6D8AC10CD9E8DA /* Pods-iOS_Market.debug.xcconfig */,
+				D376C91F7FCDBAC1CEFEBDD1 /* Pods-iOS_Market.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		247E42BD218A0CFC001479B6 /* iOS_Market */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247E42D0218A0D08001479B6 /* Build configuration list for PBXNativeTarget "iOS_Market" */;
+			buildPhases = (
+				52B5DB3B46616AE42A9056C8 /* [CP] Check Pods Manifest.lock */,
+				247E42BA218A0CFC001479B6 /* Sources */,
+				247E42BB218A0CFC001479B6 /* Frameworks */,
+				247E42BC218A0CFC001479B6 /* Resources */,
+				F43C53B03B1802B5E6F3D0B5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_Market;
+			productName = iOS_Market;
+			productReference = 247E42BE218A0CFC001479B6 /* iOS_Market.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		247E42B6218A0CFC001479B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Dipang Sheth";
+				TargetAttributes = {
+					247E42BD218A0CFC001479B6 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 247E42B9218A0CFC001479B6 /* Build configuration list for PBXProject "iOS_Market" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 247E42B5218A0CFC001479B6;
+			productRefGroup = 247E42BF218A0CFC001479B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				247E42BD218A0CFC001479B6 /* iOS_Market */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		247E42BC218A0CFC001479B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247E42F8218A2848001479B6 /* Market.storyboard in Resources */,
+				247E42CC218A0D08001479B6 /* LaunchScreen.storyboard in Resources */,
+				247E4309218A5152001479B6 /* MoneyTableViewCell.xib in Resources */,
+				247E42C9218A0D08001479B6 /* Assets.xcassets in Resources */,
+				247E4303218A4A9F001479B6 /* BaseCollectionViewCell.xib in Resources */,
+				247E42C7218A0CFC001479B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52B5DB3B46616AE42A9056C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_Market-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F43C53B03B1802B5E6F3D0B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOS_Market/Pods-iOS_Market-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ScrollableSegmentedControl/ScrollableSegmentedControl.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScrollableSegmentedControl.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS_Market/Pods-iOS_Market-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		247E42BA218A0CFC001479B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247E42F2218A2801001479B6 /* InsuranceViewController.swift in Sources */,
+				247E42F6218A2822001479B6 /* LoansViewController.swift in Sources */,
+				247E42F0218A27F1001479B6 /* MoneyTransferViewController.swift in Sources */,
+				247E42DA218A1697001479B6 /* Extensions.swift in Sources */,
+				247E42FB218A31F5001479B6 /* BaseViewController.swift in Sources */,
+				247E4304218A4A9F001479B6 /* BaseCollectionViewCell.swift in Sources */,
+				247E42EA218A2796001479B6 /* ScanQRViewController.swift in Sources */,
+				247E42FF218A4391001479B6 /* MarketViewController.swift in Sources */,
+				247E42E8218A2789001479B6 /* CardViewController.swift in Sources */,
+				247E42DF218A26C8001479B6 /* TabBarController.swift in Sources */,
+				247E42EC218A27A2001479B6 /* MoreViewController.swift in Sources */,
+				247E42DC218A1AD5001479B6 /* Enums.swift in Sources */,
+				247E42EE218A27AE001479B6 /* AccountsViewController.swift in Sources */,
+				247E42C2218A0CFC001479B6 /* AppDelegate.swift in Sources */,
+				247E4308218A5152001479B6 /* MoneyTableViewCell.swift in Sources */,
+				247E42F4218A2810001479B6 /* CreditViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		247E42C5218A0CFC001479B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				247E42C6218A0CFC001479B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		247E42CA218A0D08001479B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				247E42CB218A0D08001479B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		247E42CE218A0D08001479B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		247E42CF218A0D08001479B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		247E42D1218A0D08001479B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C5C7D02EF6D8AC10CD9E8DA /* Pods-iOS_Market.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TEUK368ZGC;
+				INFOPLIST_FILE = iOS_Market/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosmarket.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		247E42D2218A0D08001479B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D376C91F7FCDBAC1CEFEBDD1 /* Pods-iOS_Market.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TEUK368ZGC;
+				INFOPLIST_FILE = iOS_Market/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosmarket.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		247E42B9218A0CFC001479B6 /* Build configuration list for PBXProject "iOS_Market" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247E42CE218A0D08001479B6 /* Debug */,
+				247E42CF218A0D08001479B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		247E42D0218A0D08001479B6 /* Build configuration list for PBXNativeTarget "iOS_Market" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247E42D1218A0D08001479B6 /* Debug */,
+				247E42D2218A0D08001479B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 247E42B6218A0CFC001479B6 /* Project object */;
+}
